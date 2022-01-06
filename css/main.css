@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family:sans-serif;
+    font-weight: 300;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: black;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+    font-size: 60px;
+    float:left;
+    padding-top: 10px;
+}
+
+.directory{
+    display: block;
+    float: right;
+    display: inline-block;
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+nav .directory{
+    margin-left: 150px;
+    padding-top: 35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.image{
+    width:95%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flexbox-containers{
+    background-color: white;
+    height:1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.flexbox-item{
+    width:800px;
+    margin:10px;
+    border: 2px solid lightgrey;
+}
+
+.flexbox-item-1{
+    min-height: 250px;
+    text-align: center;
+}
+
+.flexbox-item-2{
+    min-height: 250px;
+    text-align: center;
+}
+
+.flexbox-item-3{
+    min-height:250px;
+    text-align: center;
+}
+
+.flexbox-item-4{
+    height:1200px;
+    width:100%;
+    background-color: black;
+}
+.flexbox-item-5{
+    margin-top: 30px;
+    margin:60px;
+    height: 300px;
+    width:20%;
+    background-color: black;
+}
+.flexbox-item-6{
+    margin: 90px;
+    height:200px;
+    width:10%;
+    background-color: black;
+}
+.flexbox-item-7{
+    margin:90px;
+    height:200px;
+    width:10%;
+    background-color: black;
+}
+.flexbox-item-8{
+    margin: 90px;
+    height:200px;
+    width:10%;
+    background-color: black;
+}
+
+.contact{
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.sun{
+    width:31%;
+    float:left;
+}
+button{
+    width:100px;
+    height: 40px;
+    background-color:rgb(235,182,37);
+    color:white;
+}
+.maps{
+    width:300px;
+  
+}
+.mainl{
+    color:white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.blist{
+    color:white;
+    margin-top: 30px;
+}
+div ul{
+    text-align: left;
+    list-style: none;
+   
+}
+.flexbox-containers2{
+    background-color: white;
+    height:10px;
+    display: flex;
+    
+    align-content: space-between;
+}
